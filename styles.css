@@ -55,7 +55,7 @@ header {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
-  margin-bottom: 2vh;
+  margin-bottom: 2rem;
 }
 
 .header-title p {
@@ -63,7 +63,7 @@ header {
   font-weight: 300;
   font-size: 21px;
   line-height: 32px;
-  margin-bottom: 2vh;
+  margin-bottom: 2rem;
 }
 
 .header-title button {
@@ -111,9 +111,53 @@ header {
 .box {
   display: inline-block;
   text-align: left;
-  width: 350px;
+  width: 350px; /*amis gamo horizontaluri sqroli uchndeba*/
   border-radius: 20px;
   background-color: white;
-  padding: 4vh;
-  margin: 2vh;
+  padding: 3rem;
+  margin: 1.5rem;
+}
+
+.btn-2 {
+  font-weight: 700;
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+  border: 2px solid #458ff6;
+  color: #458ff6;
+  cursor: pointer;
+}
+
+/* providers */
+
+.providers {
+  background-color: orange;
+  margin: 0 auto;
+  width: 1487px;
+}
+
+.providers-img {
+  vertical-align: middle;
+  display: inline-block;
+  width: 650px;
+}
+
+.providers-title {
+  display: inline-block;
+  width: 486px;
+}
+
+.providers-title h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  margin-bottom: 1rem;
+}
+
+.providers-title p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
+  margin-bottom: 1rem;
 }
