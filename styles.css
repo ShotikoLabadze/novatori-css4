@@ -29,6 +29,7 @@ header {
   margin: 0 auto;
   background-color: red;
   width: 80%;
+  margin-bottom: 4rem;
 }
 
 .logo {
@@ -57,6 +58,7 @@ header {
   background-color: green;
   margin: 0 auto;
   width: 80%;
+  margin-bottom: 4rem;
 }
 
 .header-title {
@@ -95,6 +97,7 @@ header {
   width: 80%;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .our-services {
@@ -128,6 +131,7 @@ header {
   background-color: orange;
   margin: 0 auto;
   width: 80%;
+  margin-bottom: 4rem;
 }
 
 .providers-img {
@@ -165,6 +169,7 @@ header {
   width: 80%;
   margin: 0 auto;
   background-color: blue;
+  margin-bottom: 4rem;
 }
 
 .download-title {
@@ -193,6 +198,7 @@ header {
   border-radius: 25px;
   padding: 4.5rem;
   text-align: center;
+  margin-bottom: 4rem;
 }
 
 .tit {
@@ -229,4 +235,31 @@ header {
   color: white;
   font-weight: 400;
   line-height: 30px;
+}
+
+/* latest articles */
+
+.article {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.article-box {
+  display: inline-block;
+  text-align: left;
+  width: 30%;
+}
+
+.article-box img {
+  width: 350px;
+}
+
+.article-box button {
+  border: none;
+  color: #4089ed;
+  font-weight: 600;
+  size: 17px;
+  line-height: 28px;
 }
