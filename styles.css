@@ -27,6 +27,12 @@ p {
   line-height: 30px;
   color: #7d7987;
 }
+
+body {
+  background-image: url(img/bg\ blue.png);
+  background-repeat: no-repeat;
+  background-position: top 600px left 0px;
+}
 /* Header */
 
 header {
@@ -213,6 +219,7 @@ header {
 .customer {
   display: inline-block;
   vertical-align: middle;
+  margin: 2rem;
 }
 
 .profile {
@@ -274,7 +281,7 @@ header {
 
 footer {
   width: 100%;
-  height: 500px;
+
   padding: 6rem;
   text-align: center;
   background: rgb(53, 107, 185);
